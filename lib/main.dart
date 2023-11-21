@@ -28,10 +28,6 @@ class _WorkingTableState extends State<WorkingTable> {
   final TransformationController controller = TransformationController();
   List<DraggableCard> elements = [];
 
-  onTap (int card) {
-
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
